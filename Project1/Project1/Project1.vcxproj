@@ -83,6 +83,7 @@
       <AdditionalDependencies />
       <NoEntryPoint>false</NoEntryPoint>
       <EntryPointSymbol>main</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -120,18 +121,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DishSelectionForm.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OrderTrackingForm.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DishSelectionForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="OrderTrackingForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DishSelectionForm.resx">
+      <DependentUpon>DishSelectionForm.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OrderTrackingForm.resx">
       <DependentUpon>OrderTrackingForm.h</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project1.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
