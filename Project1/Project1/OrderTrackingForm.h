@@ -26,6 +26,7 @@ namespace Project1 {
 			//TODO: добавьте код конструктора
 			//
 			orders = gcnew System::Collections::Generic::List<String^>();
+			this->Load += gcnew System::EventHandler(this, &OrderTrackingForm::OrderTrackingForm_Load);
 		}
 
 	protected:
@@ -126,12 +127,18 @@ namespace Project1 {
 
 		}
 #pragma endregion
+	private: System::Void OrderTrackingForm_Load(System::Object^ sender, System::EventArgs^ e) {
+		Text = "Order Tracking";
+		Size = System::Drawing::Size(600, 300);
+		StartPosition = FormStartPosition::CenterScreen;
+	}
 
 	private: System::Void AddButton_Click(System::Object^ sender, System::EventArgs^ e) {
 		// Add a new order
 		orders->Add("New");
 		orderDataGridView->Rows->Add(orders->Count, "New");
 	}
+
 	private: System::Void filterButton_Click(System::Object^ sender, System::EventArgs^ e) {
 		// Filter orders by status
 		String^ selectedStatus = statusComboBox->SelectedItem->ToString();
@@ -143,11 +150,12 @@ namespace Project1 {
 				this->orderDataGridView->Rows->Add(i + 1, orders[i]);
 			}
 		}
+		
 	}
 	private: System::Void statusComboBox_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void orderDataGridView_CellContentClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
 	}
-
+	
 };
 }

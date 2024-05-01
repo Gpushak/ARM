@@ -43,9 +43,10 @@ OrderTrackingForm::OrderTrackingForm()
 void OrderTrackingForm::OnLoad(EventArgs^ e)
 {
     Text = "Order Tracking";
-    Size = Size(300, 250);
+    Size = System::Drawing::Size(300, 250);
     StartPosition = FormStartPosition::CenterScreen;
 }
+
 
 void OrderTrackingForm::OnClick(Object^ sender, EventArgs^ e)
 {
