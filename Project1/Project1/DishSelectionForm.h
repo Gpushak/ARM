@@ -38,11 +38,13 @@ namespace Project1 {
     private:
         System::ComponentModel::Container^ components;
         System::Windows::Forms::ComboBox^ comboBox1;
-        System::Windows::Forms::Button^ okButton;
+    private: System::Windows::Forms::Button^ button1;
+           System::Windows::Forms::Button^ okButton;
 
         void InitializeComponent(void) {
             this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
             this->okButton = (gcnew System::Windows::Forms::Button());
+            this->button1 = (gcnew System::Windows::Forms::Button());
             this->SuspendLayout();
             // 
             // comboBox1
@@ -55,19 +57,35 @@ namespace Project1 {
             // 
             // okButton
             // 
+            this->okButton->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(128)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
+                static_cast<System::Int32>(static_cast<System::Byte>(128)));
             this->okButton->Location = System::Drawing::Point(12, 39);
             this->okButton->Name = L"okButton";
             this->okButton->Size = System::Drawing::Size(75, 23);
             this->okButton->TabIndex = 1;
             this->okButton->Text = L"OK";
-            this->okButton->UseVisualStyleBackColor = true;
+            this->okButton->UseVisualStyleBackColor = false;
             this->okButton->Click += gcnew System::EventHandler(this, &DishSelectionForm::okButton_Click);
+            // 
+            // button1
+            // 
+            this->button1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(128)),
+                static_cast<System::Int32>(static_cast<System::Byte>(128)));
+            this->button1->Location = System::Drawing::Point(125, 39);
+            this->button1->Name = L"button1";
+            this->button1->Size = System::Drawing::Size(75, 23);
+            this->button1->TabIndex = 2;
+            this->button1->Text = L"Отмена";
+            this->button1->UseVisualStyleBackColor = false;
+            this->button1->Click += gcnew System::EventHandler(this, &DishSelectionForm::button1_Click);
             // 
             // DishSelectionForm
             // 
             this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
             this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
             this->ClientSize = System::Drawing::Size(212, 71);
+            this->ControlBox = false;
+            this->Controls->Add(this->button1);
             this->Controls->Add(this->okButton);
             this->Controls->Add(this->comboBox1);
             this->Name = L"DishSelectionForm";
@@ -82,5 +100,8 @@ namespace Project1 {
             this->DialogResult = System::Windows::Forms::DialogResult::OK;
             this->Close();
         }
+    private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+        this->Close();
+    }
     };
 }

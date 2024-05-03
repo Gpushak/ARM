@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\MenuForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|solutionrelative:Project1\\MenuForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\MenuForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|solutionrelative:Project1\\MenuForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\DishSelectionForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|solutionrelative:Project1\\DishSelectionForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\DishSelectionForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|solutionrelative:Project1\\DishSelectionForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\OrderTrackingForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|solutionrelative:Project1\\OrderTrackingForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     },
@@ -13,22 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\MenuForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
-      "RelativeMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|solutionrelative:Project1\\MenuForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\MenuForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|solutionrelative:Project1\\MenuForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\DishSelectionForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
-      "RelativeMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|solutionrelative:Project1\\DishSelectionForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\DishSelectionForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0602BC38-9E25-46B3-8798-CF073117F6D4}|Project1\\Project1.vcxproj|solutionrelative:Project1\\DishSelectionForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\main.cpp",
               "RelativeDocumentMoniker": "Project1\\main.cpp",
@@ -54,53 +54,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "MenuForm.h",
               "DocumentMoniker": "C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\MenuForm.h",
               "RelativeDocumentMoniker": "Project1\\MenuForm.h",
               "ToolTip": "C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\MenuForm.h",
               "RelativeToolTip": "Project1\\MenuForm.h",
-              "ViewState": "AQIAACEAAAAAAAAAAAAvwFsAAABWAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAwGYAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-03T10:17:26.099Z"
+              "WhenOpened": "2024-05-03T10:17:26.099Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MenuForm.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\MenuForm.h",
               "RelativeDocumentMoniker": "Project1\\MenuForm.h",
               "ToolTip": "C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\MenuForm.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Project1\\MenuForm.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-03T10:17:12.394Z"
+              "WhenOpened": "2024-05-03T10:17:12.394Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "DishSelectionForm.h",
               "DocumentMoniker": "C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\DishSelectionForm.h",
               "RelativeDocumentMoniker": "Project1\\DishSelectionForm.h",
               "ToolTip": "C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\DishSelectionForm.h",
               "RelativeToolTip": "Project1\\DishSelectionForm.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAwF4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-01T10:15:16.594Z"
+              "WhenOpened": "2024-05-01T10:15:16.594Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "DishSelectionForm.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\DishSelectionForm.h",
               "RelativeDocumentMoniker": "Project1\\DishSelectionForm.h",
               "ToolTip": "C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\DishSelectionForm.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Project1\\DishSelectionForm.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-01T10:15:00.32Z"
+              "WhenOpened": "2024-05-01T10:15:00.32Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "OrderTrackingForm.h",
               "DocumentMoniker": "C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\OrderTrackingForm.h",
               "RelativeDocumentMoniker": "Project1\\OrderTrackingForm.h",
@@ -113,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "OrderTrackingForm.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\igleb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ARM\\ARM\\Project1\\Project1\\OrderTrackingForm.h",
               "RelativeDocumentMoniker": "Project1\\OrderTrackingForm.h",

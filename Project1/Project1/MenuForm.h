@@ -34,6 +34,7 @@ namespace Project1 {
     private: System::Windows::Forms::PictureBox^ pictureBox1;
     protected:
     private: System::Windows::Forms::PictureBox^ pictureBox2;
+    private: System::Windows::Forms::Button^ button1;
 
     protected:
 
@@ -46,6 +47,7 @@ namespace Project1 {
                System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MenuForm::typeid));
                this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
                this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
+               this->button1 = (gcnew System::Windows::Forms::Button());
                (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
                (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
                this->SuspendLayout();
@@ -68,12 +70,26 @@ namespace Project1 {
                this->pictureBox2->TabIndex = 1;
                this->pictureBox2->TabStop = false;
                // 
+               // button1
+               // 
+               this->button1->BackColor = System::Drawing::Color::Red;
+               this->button1->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
+               this->button1->Location = System::Drawing::Point(23, 29);
+               this->button1->Name = L"button1";
+               this->button1->Size = System::Drawing::Size(103, 23);
+               this->button1->TabIndex = 2;
+               this->button1->Text = L"Закрыть меню";
+               this->button1->UseVisualStyleBackColor = false;
+               this->button1->Click += gcnew System::EventHandler(this, &MenuForm::button1_Click);
+               // 
                // MenuForm
                // 
                this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
                this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
                this->AutoScroll = true;
-               this->ClientSize = System::Drawing::Size(524, 921);
+               this->ClientSize = System::Drawing::Size(541, 938);
+               this->ControlBox = false;
+               this->Controls->Add(this->button1);
                this->Controls->Add(this->pictureBox2);
                this->Controls->Add(this->pictureBox1);
                this->Name = L"MenuForm";
@@ -90,6 +106,9 @@ namespace Project1 {
         Size = System::Drawing::Size(540, 960);
     }
     private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
+    }
+    private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+        this->Close();
     }
     };
 }
