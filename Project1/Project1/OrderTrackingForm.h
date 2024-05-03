@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include "DishSelectionForm.h"
+#include "MenuForm.h"
 
 namespace Project1 {
 
@@ -36,6 +37,11 @@ namespace Project1 {
 			availableDishes->Add("Ширако");
 			availableDishes->Add("Сеульский Бибимбап");
 			availableDishes->Add("Дим-Самы");
+			availableDishes->Add("Напиток: Кола 0,5 л");
+			availableDishes->Add("Напиток: Чай 1 л");
+			availableDishes->Add("Напиток: Молочный коктель 0,3 л");
+			availableDishes->Add("Напиток: Глинтвейн 0,3 л");
+			availableDishes->Add("Напиток: Пиво 0,5 л");
 		}
 
 	protected:
@@ -59,21 +65,23 @@ namespace Project1 {
 		System::Collections::Generic::List<String^>^ orders;
 		System::Collections::Generic::List<String^>^ filteredOrdersStatus;
 		System::Collections::Generic::List<String^>^ filteredOrders;
-	
-	private: System::Windows::Forms::TextBox^ textBox1;
+
+
 	private: System::Windows::Forms::Label^ label1;
 
 
 
 
 	private: System::Collections::Generic::List<String^>^ availableDishes;
+
+
+
+	private: System::Windows::Forms::Button^ MenuButton;
+	private: System::Windows::Forms::ComboBox^ comboBox1;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn1;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn2;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column1;
-	private: System::Windows::Forms::Button^ MenuButton;
-
-
-
+	private: System::Windows::Forms::Label^ label2;
 
 
 
@@ -82,7 +90,7 @@ namespace Project1 {
 		/// <summary>
 		/// Обязательная переменная конструктора.
 		/// </summary>
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -99,9 +107,10 @@ namespace Project1 {
 			this->dataGridViewTextBoxColumn1 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->dataGridViewTextBoxColumn2 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column1 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
-			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->MenuButton = (gcnew System::Windows::Forms::Button());
+			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
+			this->label2 = (gcnew System::Windows::Forms::Label());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->orderDataGridView))->BeginInit();
 			this->SuspendLayout();
 			// 
@@ -109,7 +118,7 @@ namespace Project1 {
 			// 
 			this->AddButton->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(0)));
-			this->AddButton->Location = System::Drawing::Point(321, 299);
+			this->AddButton->Location = System::Drawing::Point(338, 299);
 			this->AddButton->Name = L"AddButton";
 			this->AddButton->Size = System::Drawing::Size(141, 58);
 			this->AddButton->TabIndex = 0;
@@ -137,7 +146,7 @@ namespace Project1 {
 			this->statusComboBox->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"New", L"In Progress", L"Completed" });
 			this->statusComboBox->Location = System::Drawing::Point(341, 85);
 			this->statusComboBox->Name = L"statusComboBox";
-			this->statusComboBox->Size = System::Drawing::Size(121, 21);
+			this->statusComboBox->Size = System::Drawing::Size(138, 21);
 			this->statusComboBox->TabIndex = 2;
 			this->statusComboBox->SelectedIndexChanged += gcnew System::EventHandler(this, &OrderTrackingForm::statusComboBox_SelectedIndexChanged);
 			// 
@@ -152,15 +161,15 @@ namespace Project1 {
 			this->orderDataGridView->GridColor = System::Drawing::Color::DarkGoldenrod;
 			this->orderDataGridView->Location = System::Drawing::Point(46, 112);
 			this->orderDataGridView->Name = L"orderDataGridView";
-			this->orderDataGridView->Size = System::Drawing::Size(416, 181);
+			this->orderDataGridView->Size = System::Drawing::Size(433, 181);
 			this->orderDataGridView->TabIndex = 3;
 			this->orderDataGridView->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &OrderTrackingForm::orderDataGridView_CellContentClick);
 			// 
 			// dataGridViewTextBoxColumn1
 			// 
-			this->dataGridViewTextBoxColumn1->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::Fill;
 			this->dataGridViewTextBoxColumn1->HeaderText = L"Номер заказа";
 			this->dataGridViewTextBoxColumn1->Name = L"dataGridViewTextBoxColumn1";
+			this->dataGridViewTextBoxColumn1->Width = 50;
 			// 
 			// dataGridViewTextBoxColumn2
 			// 
@@ -175,22 +184,14 @@ namespace Project1 {
 			this->Column1->Name = L"Column1";
 			this->Column1->Resizable = System::Windows::Forms::DataGridViewTriState::False;
 			// 
-			// textBox1
-			// 
-			this->textBox1->Location = System::Drawing::Point(46, 83);
-			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(195, 20);
-			this->textBox1->TabIndex = 4;
-			this->textBox1->TextChanged += gcnew System::EventHandler(this, &OrderTrackingForm::textBox1_TextChanged);
-			// 
 			// label1
 			// 
 			this->label1->AutoSize = true;
 			this->label1->Location = System::Drawing::Point(43, 67);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(101, 13);
+			this->label1->Size = System::Drawing::Size(119, 13);
 			this->label1->TabIndex = 5;
-			this->label1->Text = L"Введите ваше имя";
+			this->label1->Text = L"Выберите Ваш столик";
 			this->label1->Click += gcnew System::EventHandler(this, &OrderTrackingForm::label1_Click);
 			// 
 			// MenuButton
@@ -207,6 +208,28 @@ namespace Project1 {
 			this->MenuButton->UseVisualStyleBackColor = false;
 			this->MenuButton->Click += gcnew System::EventHandler(this, &OrderTrackingForm::MenuButton_Click);
 			// 
+			// comboBox1
+			// 
+			this->comboBox1->FormattingEnabled = true;
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(10) {
+				L"1", L"2", L"3", L"4", L"5", L"6", L"7", L"8",
+					L"9", L"10"
+			});
+			this->comboBox1->Location = System::Drawing::Point(46, 85);
+			this->comboBox1->Name = L"comboBox1";
+			this->comboBox1->Size = System::Drawing::Size(121, 21);
+			this->comboBox1->TabIndex = 7;
+			// 
+			// label2
+			// 
+			this->label2->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
+				static_cast<System::Int32>(static_cast<System::Byte>(128)));
+			this->label2->Location = System::Drawing::Point(150, 308);
+			this->label2->Name = L"label2";
+			this->label2->Size = System::Drawing::Size(182, 40);
+			this->label2->TabIndex = 8;
+			this->label2->Text = L"Нажмите на номер заказа чтобы удалить из списка";
+			// 
 			// OrderTrackingForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -214,9 +237,10 @@ namespace Project1 {
 			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
 				static_cast<System::Int32>(static_cast<System::Byte>(128)));
 			this->ClientSize = System::Drawing::Size(524, 921);
+			this->Controls->Add(this->label2);
+			this->Controls->Add(this->comboBox1);
 			this->Controls->Add(this->MenuButton);
 			this->Controls->Add(this->label1);
-			this->Controls->Add(this->textBox1);
 			this->Controls->Add(this->orderDataGridView);
 			this->Controls->Add(this->statusComboBox);
 			this->Controls->Add(this->filterButton);
@@ -254,7 +278,7 @@ namespace Project1 {
 			}
 		}
 	}
-		   
+
 	private: System::Void filterButton_Click(System::Object^ sender, System::EventArgs^ e) {
 		// Получаем выбранный статус из ComboBox
 		String^ selectedStatus = statusComboBox->SelectedItem->ToString();
@@ -278,8 +302,25 @@ namespace Project1 {
 	}
 
 	private: System::Void orderDataGridView_CellContentClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
+		// Проверяем, что клик был на кнопке "Отменить"
+		if (e->RowIndex >= 0) {
+			// Получаем номер заказа из ячейки
+			String^ orderNumber = orderDataGridView->Rows[e->RowIndex]->Cells[0]->Value->ToString();
+
+			// Показываем диалоговое окно с вопросом
+			System::Windows::Forms::DialogResult result = MessageBox::Show("Хотите ли вы отменить заказ №" + orderNumber + "?", "Отмена заказа", MessageBoxButtons::YesNo, MessageBoxIcon::Question);
+
+			// Если пользователь выбрал "Да"
+			if (result == System::Windows::Forms::DialogResult::Yes) {
+				// Удаляем заказ из списка
+				orders->RemoveAt(e->RowIndex);
+				// Удаляем строку из таблицы
+				orderDataGridView->Rows->RemoveAt(e->RowIndex);
+			}
+		}
 	}
-	
+
+
 	private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
 
@@ -287,20 +328,10 @@ namespace Project1 {
 	}
 
 	private: System::Void MenuButton_Click(System::Object^ sender, System::EventArgs^ e) {
-		// Указываем путь к вашему PDF-файлу
-		String^ pdfFilePath = "C:\\Users\\igleb\\OneDrive\\Рабочий стол\\ARM\\Project1\\menu\\menu.txt";
-
-		// Проверяем, существует ли файл
-		if (System::IO::File::Exists(pdfFilePath)) {
-			// Запускаем процесс для открытия PDF-файла
-			System::Diagnostics::Process::Start(pdfFilePath);
-		}
-		else {
-			// Если файл не найден, выводим сообщение об ошибке
-			MessageBox::Show("Файл PDF не найден!", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
-		}
+		MenuForm^ menuForm = gcnew MenuForm();
+		menuForm->Show();
 	}
 
 
-};
+	};
 }

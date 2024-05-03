@@ -123,10 +123,14 @@
   <ItemGroup>
     <ClCompile Include="DishSelectionForm.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuForm.cpp" />
     <ClCompile Include="OrderTrackingForm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DishSelectionForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MenuForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="OrderTrackingForm.h">
@@ -137,6 +141,9 @@
   <ItemGroup>
     <EmbeddedResource Include="DishSelectionForm.resx">
       <DependentUpon>DishSelectionForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForm.resx">
+      <DependentUpon>MenuForm.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrderTrackingForm.resx">
       <DependentUpon>OrderTrackingForm.h</DependentUpon>

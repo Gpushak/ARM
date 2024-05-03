@@ -5,3 +5,8 @@ C:\Users\igleb\OneDrive\Рабочий стол\ARM\Project1\Project1\x64\Debug\
 C:\Users\igleb\OneDrive\Рабочий стол\ARM\Project1\Project1\x64\Debug\Project1.OrderTrackingForm.resources
 C:\Users\igleb\OneDrive\Рабочий стол\ARM\Project1\Project1\x64\Debug\Project1.vcxproj.GenerateResource.cache
 C:\Users\igleb\OneDrive\Рабочий стол\ARM\Project1\Project1\x64\Debug\Project1.DishSelectionForm.resources
+C:\Users\igleb\OneDrive\Рабочий стол\ARM\ARM\Project1\Project1\x64\Debug\Project1.vcxproj.AssemblyReference.cache
+C:\Users\igleb\OneDrive\Рабочий стол\ARM\ARM\Project1\Project1\x64\Debug\Project1.DishSelectionForm.resources
+C:\Users\igleb\OneDrive\Рабочий стол\ARM\ARM\Project1\Project1\x64\Debug\Project1.OrderTrackingForm.resources
+C:\Users\igleb\OneDrive\Рабочий стол\ARM\ARM\Project1\Project1\x64\Debug\Project1.vcxproj.GenerateResource.cache
+C:\Users\igleb\OneDrive\Рабочий стол\ARM\ARM\Project1\Project1\x64\Debug\Project1.MenuForm.resources
