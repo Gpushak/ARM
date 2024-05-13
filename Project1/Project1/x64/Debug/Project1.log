@@ -1,6 +1,5 @@
-﻿  MenuForm.cpp
-  OrderTrackingForm.cpp
+﻿  OrderTrackingForm.cpp
   main.cpp
   Создание кода...
-  DishSelectionForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
-  Project1.vcxproj -> C:\Users\igleb\OneDrive\Рабочий стол\ARM\ARM\Project1\x64\Debug\Project1.exe
+  Base.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Project1.vcxproj -> C:\Users\igleb\OneDrive\Рабочий стол\bazeArm\ARM\Project1\x64\Debug\Project1.exe

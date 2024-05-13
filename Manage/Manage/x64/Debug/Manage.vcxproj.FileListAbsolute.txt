@@ -1,0 +1,9 @@
+C:\Users\igleb\OneDrive\Рабочий стол\ARM\ARM\Manage\Manage\x64\Debug\Manage.vcxproj.AssemblyReference.cache
+C:\Users\igleb\OneDrive\Рабочий стол\ARM\ARM\Manage\Manage\x64\Debug\Manage.ManageForm.resources
+C:\Users\igleb\OneDrive\Рабочий стол\ARM\ARM\Manage\Manage\x64\Debug\Manage.vcxproj.GenerateResource.cache
+C:\Users\admin\Downloads\ARM\Manage\Manage\x64\Debug\Manage.vcxproj.AssemblyReference.cache
+C:\Users\admin\Downloads\ARM\Manage\Manage\x64\Debug\Manage.ManageForm.resources
+C:\Users\admin\Downloads\ARM\Manage\Manage\x64\Debug\Manage.vcxproj.GenerateResource.cache
+C:\Users\igleb\OneDrive\Рабочий стол\bazeArm\ARM\Manage\Manage\x64\Debug\Manage.vcxproj.AssemblyReference.cache
+C:\Users\igleb\OneDrive\Рабочий стол\bazeArm\ARM\Manage\Manage\x64\Debug\Manage.ManageForm.resources
+C:\Users\igleb\OneDrive\Рабочий стол\bazeArm\ARM\Manage\Manage\x64\Debug\Manage.vcxproj.GenerateResource.cache

@@ -121,12 +121,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Base.cpp" />
+    <ClCompile Include="ClassNames.cpp" />
     <ClCompile Include="DishSelectionForm.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MenuForm.cpp" />
     <ClCompile Include="OrderTrackingForm.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Base.h" />
+    <ClInclude Include="ClassNames.h" />
     <ClInclude Include="DishSelectionForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
